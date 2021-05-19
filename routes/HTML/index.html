@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Renta-Photo API</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div><h1>Renta-Photo API</h1></div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div  class="centrize">
+        <div class="goCenter">
+
+					<select class="target form-control form-floating" >
+					  <option value="getP" selected="selected">Поиск (GET)</option>
+					  <option value="postP">Добавление (POST)</option>
+						<option value="putP">Изменение (PUT)</option>
+						<option value="deleteP">Удаление (DELETE)</option>
+					</select>
+
+        </div>
+
+        <div id="formGet">
+          <div class="">
+            <input type="text" class="form-control" placeholder="Введите id" id="idGET" >
+          </div>
+          <div class="form-floating">
+            <button class="btn btn-dark" onclick="getajax()">Поиск</button>
+          </div>
+        </div>
+
+
+        <div id="formPost" style="display: none;">
+          <div class="">
+            <input type="text" class="form-control" placeholder="Id" id="idPOST" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="Название продукта" id="namePOST" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="Описание продукта" id="descriptionPOST" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="Тип продукта" id="typePOST" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="URL изображения" id="imagePOST" >
+          </div>
+          <div class="form-floating">
+            <button class="btn btn-dark" onclick="postajax()">Добавить</button>
+          </div>
+        </div>
+
+        <div id="formPut" style="display: none;">
+          <div class="">
+            <input type="text" class="form-control" placeholder="Id" id="idPUT" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="Название продукта" id="namePUT" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="Описание продукта" id="descriptionPUT" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="Тип продукта" id="typePUT" >
+          </div>
+          <div class="">
+            <input type="text" class="form-control" placeholder="URL изображения" id="imagePUT" >
+          </div>
+          <div class="form-floating">
+              <button class="btn btn-dark" onclick= "putajax()" >Изменить</button>
+            </div>
+        </div>
+
+
+        <div id="formDelete" style="display: none;">
+          <div class="">
+            <input type="text" class="form-control" placeholder="Id" id="idDELETE" >
+          </div>
+          <div class="form-floating">
+            <button class="btn btn-dark" onclick="deleteajax()">Удалить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm">
+      <div class="card">
+        <img  id="mainImage" src="https://www.rentaphoto.com/local/templates/orange/img/logo.svg" class="card-img-top">
+        <ul class="list-group list-group-flush">
+          <li id ="name" style=" display: none;" class="card-title"></li>
+          <li id="description" style=" display: none;" class="list-group-item"></li>
+          <li id="type" style=" display: none;" class="list-group-item"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>

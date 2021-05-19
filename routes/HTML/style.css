@@ -1,0 +1,53 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: black;
+}
+
+input {
+  text-align: center;
+  width: 300px;
+}
+
+button {
+  width: 175px;
+}
+
+div{
+  margin-bottom: 25px;
+}
+
+#mainImage{
+  max-height: 250px;
+  max-width: : auto;
+}
+
+.form-floating{
+  text-align: center;
+  text-align-last: center;
+}
+
+.goCenter{
+  margin: 0 auto;
+  text-align:center;
+  margin-bottom: 25px;
+
+}
+
+
+.centrize {
+  justify-content: center;
+  width: 750px;
+}
+
+
+
+.card-title {
+  font-size: 250%;
+  font-weight: 600;
+}

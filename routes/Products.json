@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+    "id": 1,
+    "name": "Камера α6600",
+    "description": "Камера премиум-класса с матрицей APS-C и байонетом E",
+    "type": "Камера",
+    "image": "https://www.sony.ru/image/2bb517b59bc3c0ad3a552fb9fe58d143?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320"
+},
+{
+    "id": 2,
+    "name": "Камера α7R III",
+    "description": "Камера с полнокадровой 35-миллиметровой матрицей",
+    "type": "Камера",
+    "image": "https://magprofoto.ru/12694-thickbox_default/sony-alpha-a77-ii-kit-18-135mm.jpg"
+},
+{
+    "id": 3,
+    "name": "Объектив FE 50mm F1.2 GM",
+    "description": "Стандартный дискретный объектив премиум-класса серии G Master",
+    "type": "Объектив",
+    "image": "https://www.magezinepublishing.com/equipment/images/equipment/FE-1635mm-f28-G-Master-6534/large/sony_16-35mm_f28_gm_no_hood_front_oblique_view_1505460613.jpg"
+},
+{
+    "id": 4,
+    "name": "Объектив FE 70–200 мм F2.8 GM OSS",
+    "description": "Телеобъектив с зумом серии G Master премиум-класса",
+    "type": "Объектив",
+    "image": "https://pervoe.ru/upload/iblock/d0d/d0de8facf34c2f4d697d96574ea6723e.jpg"
+},
+{
+    "id": 5,
+    "name": "камера RX0 II",
+    "description": "Прочная, компактная камера RX0 II премиум-класса",
+    "type": "Камера",
+    "image": "https://gurushops.ru/upload/iblock/1b0/1b01670e594370403ad7113d77c0f970.jpg"
+},
+{
+    "id": 6,
+    "name": "Комплект адаптера микрофона XLR XLR-K3M",
+    "description": "Компактная и легкая конструкция весом всего 187 г",
+    "type": "Аусессуар",
+    "image": "https://static.onlinetrade.ru/img/items/b/komplekt_adaptera_sony_xlr_dlya_mikrofona_xlr_k3m_1219166_1.jpg"
+}
+    ]
+}
